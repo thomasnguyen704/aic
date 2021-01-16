@@ -4,27 +4,19 @@
       <b-container>
         <b-row>
           <b-col lg="4">
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-              deserunt mollit anim id est laborum.</p>
             <p>
               <b-button class="mx-1">Button 1</b-button>
-              <a href="https://accidentandinjurycharlotte.com/" target="_blank" class="btn btn-primary mx-1"
-                role="button">Old Site</a>
+              <a href="https://accidentandinjurycharlotte.com/" target="_blank" class="btn btn-primary mx-1" role="button">Old Site</a>
             </p>
           </b-col>
           <b-col lg="8">
-            <b-embed type="iframe" aspect="16by9"
-              src="https://www.youtube.com/embed/Aa9TvW9S_tI?playlist=Aa9TvW9S_tI&loop=1&autoplay=1&mute=1"
-              allowfullscreen />
+            <b-embed type="iframe" aspect="16by9" src="https://www.youtube.com/embed/Aa9TvW9S_tI?playlist=Aa9TvW9S_tI&loop=1&autoplay=1&mute=1" allowfullscreen />
           </b-col>
         </b-row>
       </b-container>
     </b-jumbotron>
 
-    <article class="bg-warning py-5">
+    <article class="bg-warning d-flex align-items-center">
       <b-container>
         <b-row>
           <b-col lg="4" class="px-4">
@@ -50,6 +42,37 @@
         </b-row>
       </b-container>
     </article>
+
+    <article class="bg-danger d-flex align-items-center">
+      <b-container>
+        <b-row>
+          <b-col>
+            <h1>What Makes Us Different</h1>
+          </b-col>
+          <b-col>
+            <p>The Chiropractors at our Accident and Injury Center in Charlotte have years of training and utilize the most advanced chiropractic techniques to help each patient get the pain relief they deserve from neck pain, back pain, headaches, and other accident-related injuries. We teach our accident injury patients specific exercises to help strengthen and correct any irregularities in their bodies which may be causing pain. We include lifestyle advice with our chiropractic care plans to help every patient achieve the fulfilling and happy lifestyle that they deserve.</p>
+          </b-col>
+        </b-row>
+      </b-container>
+    </article>
+
+    <article class="bg-info d-flex align-items-center">
+      <b-container>
+        <b-row>
+          <b-col>
+            <h2>Why Is It So Important To Seek Chiropractic Care After An Auto Accident In North Carolina?</h2>
+            <p>Obviously, we know you want to feel better, especially if you are experiencing any pain symptoms but there is another important reason you need quality medical care following a motor vehicle accident. Even if you are not hurting, you need to get an examination and diagnosis!</p>
+          </b-col>
+          <b-col>
+            <h4>Never Leave Gaps in Treatment</h4>
+            <p>It is crucial for an injury claim in the state of North Carolina to be documented and supported by medical records from an authoritative accident care source. Leaving gaps in your medical treatment can dramatically reduce the possiblity of starting a personal injury case. Many of our patients feel no pain for the first few days after their car accident, only for the pain to set in at a later date. The human body was not designed to handle the suddent impact and force that most automobile accidents can generate. Even a low-speed crash can cause lasting damage to your neck and back. In very stressful situations, our bodies can release adrenaline, dopamine and norepinephrine to cope with the shock and trauma that may mask the pain. If you do not get a medical exam immediately after the accident, the insurance company may argue that you injured yourself after the accident or that your injuries are not that serious because you waited to seek medical attention. As a rule, make sure to get medical care from one of our Accident Chiropractors within 14 days of your collision.</p>
+
+            <h4>Let Our Charlotte Chiropractors Help You</h4>
+            <p>Dr Kaplan or Dr. Watts will give you recommendations about any limitations you may have because of your auto accident injury. They may recommend not going to work or they may refer you to a specialist for treatment.</p>
+          </b-col>
+        </b-row>
+      </b-container>
+    </article>
     
     <div class="last"></div>
 
@@ -69,8 +92,5 @@
   .jumbotron {
     margin: 0px;
     min-height: 90vh;
-  }
-  article {
-    min-height: 80vh;
   }
 </style>
