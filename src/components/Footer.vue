@@ -1,12 +1,12 @@
 <template>
-  <footer class="bg-secondary text-white py-4 small">
+  <footer class="bg-secondary text-white pt-3 pb-1 small">
     <b-container>
       <b-row>
         <b-col lg="6">
           <b-row>
             <b-col>
               <span class="strong">North Charlotte</span>
-              <address> 5410 North Tryon Street <br/> Charlotte, NC 28213 </address>
+              <address> 5410 North Tryon St <br/> Charlotte, NC 28213 </address>
             </b-col>
             <b-col>
               <span class="strong">Uptown Charlotte</span> <br/>
@@ -15,12 +15,19 @@
           </b-row>
         </b-col>
         <b-col lg="6">
-          <span class="strong">Contact</span>
-          <p>
-            English: (704) 372-7200 <br/>
-            Español: (704) 777-0904 <br/>
-            Email: info@accidentandinjurycharlotte.com
-          </p>
+          <b-row>
+            <b-col>
+              <span class="strong">Phone</span>
+              <p>
+              English: (704) 372-7200 <br/>
+              Español: (704) 777-0904
+              </p>
+            </b-col>
+            <b-col>
+              <span class="strong">Email</span>
+              <p>info@accidentandinjurycharlotte.com</p>
+            </b-col>
+          </b-row>
         </b-col>
       </b-row>
     </b-container>

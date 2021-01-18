@@ -1,7 +1,9 @@
 <template>
   <div>
     <Navbar class="sticky-top" />
-    <router-view />
+    <article>
+      <router-view />
+    </article>
     <Footer class="fixed-bottom" />
   </div>
 </template>
@@ -22,7 +24,6 @@ export default {
 <style lang="scss">
   article {
     min-height: 70vh;
-    padding: 5em 0 5em 0;
   }
   .last {
     padding-bottom: 40vh;

@@ -38,7 +38,6 @@
       <div class="last"></div>
     </div>
 
-
   </div>
 </template>
 
