@@ -15,15 +15,20 @@
             <b-nav-item to="/contact">Contact</b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="ml-auto" id="rightNav">
-            <b-nav-item-dropdown text="Lang" right>
-              <b-dropdown-item href="#">EN</b-dropdown-item>
-              <b-dropdown-item href="#">ES</b-dropdown-item>
-            </b-nav-item-dropdown>
+            <b-nav-item>
+              <b-button v-b-modal.modal-1 variant="outline-danger" class="mx-1 btn-sm">COVID-19 Notice</b-button>
+            </b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-container>
     </b-navbar>
   </nav>
+
+  <b-modal id="modal-1" size="lg" title="COVID-19 Notice" hide-footer centered>
+    <p class="my-4 w-100">
+      <b-img class="modal-img" src="https://www.dropbox.com/s/v61rsyq9xp91mpo/covid.jpg?raw=1" fluid />
+    </p>
+  </b-modal>
 </div>
 </template>
 

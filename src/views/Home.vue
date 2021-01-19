@@ -6,11 +6,13 @@
       </video>
       <div class="container h-100 pb-5">
         <div class="d-flex h-100 text-center align-items-center pb-5">
-          <div class="w-100 text-white pb-5">
-            <h1 class="display-2">Accident & Injury Center</h1>
+          <div class="w-100 text-white py-5 fade-bg">
+            <h1 class="display-4">Accident & Injury Center</h1>
             <p class="lead">Trusted Chiropractors in Charlotte for Car Accident Injuries and Chronic Pain.</p>
             <b-link class="mx-1 btn btn-lg btn-primary" to="/new" role="button">Free Consultation</b-link>
             <b-link class="mx-1 btn btn-lg btn-danger" to="/contact" role="button">Contact Us</b-link>
+            <br/>
+            <b-img class="cm-logo my-3" src="https://www.dropbox.com/s/z0ih4frv0q8v2vo/char-memb.jpg?raw=1" thumbnail />
           </div>
         </div>
       </div>
@@ -44,7 +46,7 @@
       </b-container>
     </div>
 
-    <div class="text-white bg-info">
+    <div class="section text-white bg-info">
       <b-container>
         <b-row>
           <b-col lg="6" class="bg"></b-col>
@@ -55,15 +57,17 @@
         </b-row>
       </b-container>
     </div>
-
-    <div class="py-5 d-flex align-items-center">
+    
+    <div class="section text-white bg-light text-dark">
       <b-container>
         <b-row>
-          <b-col lg="6">
-            <h3>Why Is It So Important To Seek Chiropractic Care After An Auto Accident In North Carolina?</h3>
-            <p>Obviously, we know you want to feel better, especially if you are experiencing any pain symptoms but there is another important reason you need quality medical care following a motor vehicle accident. Even if you are not hurting, you need to get an examination and diagnosis!</p>
+          <b-col lg="6" class="bg-accident text-white">
+            <div class="fade-bg-dark mt-3 p-5">
+              <h3>Why Is It So Important To Seek Chiropractic Care After An Auto Accident In North Carolina?</h3>
+              <p>Obviously, we know you want to feel better, especially if you are experiencing any pain symptoms but there is another important reason you need quality medical care following a motor vehicle accident. Even if you are not hurting, you need to get an examination and diagnosis!</p>
+            </div>
           </b-col>
-          <b-col lg="6">
+          <b-col lg="6" class="py-5 pl-5">
             <h5>Never Leave Gaps in Treatment</h5>
             <p>It is crucial for an injury claim in the state of North Carolina to be documented and supported by medical records from an authoritative accident care source. Leaving gaps in your medical treatment can dramatically reduce the possiblity of starting a personal injury case. Many of our patients feel no pain for the first few days after their car accident, only for the pain to set in at a later date. The human body was not designed to handle the suddent impact and force that most automobile accidents can generate. Even a low-speed crash can cause lasting damage to your neck and back. In very stressful situations, our bodies can release adrenaline, dopamine and norepinephrine to cope with the shock and trauma that may mask the pain. If you do not get a medical exam immediately after the accident, the insurance company may argue that you injured yourself after the accident or that your injuries are not that serious because you waited to seek medical attention. As a rule, make sure to get medical care from one of our Accident Chiropractors within 14 days of your collision.</p>
 
@@ -71,10 +75,9 @@
             <p>Dr Kaplan or Dr. Watts will give you recommendations about any limitations you may have because of your auto accident injury. They may recommend not going to work or they may refer you to a specialist for treatment.</p>
           </b-col>
         </b-row>
-        <div class="last"></div>
       </b-container>
+      <div class="last"></div>
     </div>
-
   </div>
 </template>
 
@@ -86,9 +89,25 @@ export default {
 </script>
 
 <style scoped>
+  .fade-bg {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .cm-logo {
+    width: 15%;
+  }
+  .fade-bg-dark {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
   .bg {
-    background: url("https://www.dropbox.com/s/q3z1je9iv2p6r55/002.jpg?raw=1") center center no-repeat;;
+    background: url("https://www.dropbox.com/s/q3z1je9iv2p6r55/002.jpg?raw=1") center center no-repeat;
     background-size: cover;
+  }
+  .bg-accident {
+    background: url("https://www.dropbox.com/s/o6ifw4wit23a7kt/traffic.jpg?raw=1") center center no-repeat;
+    background-size: cover;
+  }
+  .section {
+    padding: 5em 0 5em 0;
   }
   .border-light {
     border: none;
@@ -134,7 +153,7 @@ export default {
   }
   @media (pointer: coarse) and (hover: none) {
     header {
-      background: url('') dimgrey no-repeat center center scroll;
+      background: url("https://www.dropbox.com/s/q3z1je9iv2p6r55/002.jpg?raw=1") #17a2b8 no-repeat center center scroll;
     }
     header video {
       display: none;
