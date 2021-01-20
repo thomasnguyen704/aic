@@ -17,24 +17,20 @@
 
     <div class="py-5">
       <b-container>
-        <b-row>
-          <b-col>
-            <b-card-group deck>
-              <div v-for="item in persons" :key="item.name" class="cardSize text-center">
-                <b-card :img-src="item.image" :img-alt="item.imgAlt" img-top>
+        <div class="row row-cols-1 row-cols-md-3">
+          <div v-for="item in persons" :key="item.name" class="cardSize text-center">
+            <div class="col mb-4">
+              <b-card :img-src="item.image" :img-alt="item.imgAlt" img-top>
                 <b-card-text>
-                  <p>
-                    <span class="strong">{{ item.name }} </span><br/>
-                    {{ item.title }}
-                  </p>
+                  <span class="strong">{{ item.name }} </span><br/>
+                  {{ item.title }}
                 </b-card-text>
-                </b-card>
-              </div>
-            </b-card-group>
-          </b-col>
-        </b-row>
+              </b-card>
+            </div>
+          </div>
+        </div>
       </b-container>
-      
+
       <div class="last"></div>
     </div>
 
@@ -86,7 +82,6 @@ export default {
 
 <style scoped>
   .cardSize {
-    width: 30%;
     padding-bottom: 2em;
   }
 </style>

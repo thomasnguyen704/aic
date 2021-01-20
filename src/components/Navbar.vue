@@ -26,7 +26,7 @@
 
   <b-modal id="modal-1" size="lg" title="COVID-19 Notice" hide-footer centered>
     <p class="my-4 w-100">
-      <b-img class="modal-img" src="https://www.dropbox.com/s/v61rsyq9xp91mpo/covid.jpg?raw=1" fluid />
+      <b-img class="modal-img" src="https://www.dropbox.com/s/9uhisr78h07vtv5/covid.png?raw=1" fluid />
     </p>
   </b-modal>
 </div>
