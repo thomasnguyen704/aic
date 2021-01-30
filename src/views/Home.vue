@@ -49,10 +49,15 @@
     <div class="section text-white bg-info">
       <b-container>
         <b-row>
-          <b-col lg="6" class="bg"></b-col>
-          <b-col lg="6" class="py-5 pl-5">
-            <h3>What Makes Us Different</h3>
-            <p>The Chiropractors at our Accident and Injury Center in Charlotte have years of training and utilize the most advanced chiropractic techniques to help each patient get the pain relief they deserve from neck pain, back pain, headaches, and other accident-related injuries. We teach our accident injury patients specific exercises to help strengthen and correct any irregularities in their bodies which may be causing pain. We include lifestyle advice with our chiropractic care plans to help every patient achieve the fulfilling and happy lifestyle that they deserve.</p> 
+          <b-col lg="6" class="bg">
+            <div class="fade-bg-dark m-3 p-4">
+              <h3>What Makes Us Different</h3>
+              <p>The Chiropractors at our Accident and Injury Center in Charlotte have years of training and utilize the most advanced chiropractic techniques to help each patient.</p>
+            </div>
+          </b-col>
+          <b-col lg="6" class="py-2">
+            <h5>The Chiropractors at our Accident and Injury Center in Charlotte</h5>
+            <p>We have years of training and utilize the most advanced chiropractic techniques to help each patient get the pain relief they deserve from neck pain, back pain, headaches, and other accident-related injuries. We teach our accident injury patients specific exercises to help strengthen and correct any irregularities in their bodies which may be causing pain. We include lifestyle advice with our chiropractic care plans to help every patient achieve the fulfilling and happy lifestyle that they deserve.</p> 
           </b-col>
         </b-row>
       </b-container>
@@ -62,12 +67,12 @@
       <b-container>
         <b-row>
           <b-col lg="6" class="bg-accident text-white">
-            <div class="fade-bg-dark mt-3 p-5">
+            <div class="fade-bg-dark m-3 p-4">
               <h3>Why Is It So Important To Seek Chiropractic Care After An Auto Accident In North Carolina?</h3>
               <p>Obviously, we know you want to feel better, especially if you are experiencing any pain symptoms but there is another important reason you need quality medical care following a motor vehicle accident. Even if you are not hurting, you need to get an examination and diagnosis!</p>
             </div>
           </b-col>
-          <b-col lg="6" class="py-5 pl-5">
+          <b-col lg="6" class="py-2">
             <h5>Never Leave Gaps in Treatment</h5>
             <p>It is crucial for an injury claim in the state of North Carolina to be documented and supported by medical records from an authoritative accident care source. Leaving gaps in your medical treatment can dramatically reduce the possiblity of starting a personal injury case. Many of our patients feel no pain for the first few days after their car accident, only for the pain to set in at a later date. The human body was not designed to handle the suddent impact and force that most automobile accidents can generate. Even a low-speed crash can cause lasting damage to your neck and back. In very stressful situations, our bodies can release adrenaline, dopamine and norepinephrine to cope with the shock and trauma that may mask the pain. If you do not get a medical exam immediately after the accident, the insurance company may argue that you injured yourself after the accident or that your injuries are not that serious because you waited to seek medical attention. As a rule, make sure to get medical care from one of our Accident Chiropractors within 14 days of your collision.</p>
 

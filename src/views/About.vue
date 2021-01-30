@@ -17,7 +17,7 @@
 
     <div class="py-5">
       <b-container>
-        <div class="row row-cols-1 row-cols-md-3">
+        <div class="row row-cols-2 row-cols-md-3">
           <div v-for="item in persons" :key="item.name" class="cardSize text-center">
             <div class="col mb-4">
               <b-card :img-src="item.image" :img-alt="item.imgAlt" img-top>

@@ -1,9 +1,11 @@
 <template>
-  <footer class="bg-secondary text-white small py-2">
+  <footer class="bg-secondary text-white small py-1">
     <b-container>
-      <p class="strong">Locations</p>
       <b-row>
-        <b-col lg="7" class="pb-2">
+        <b-col>
+          <p class="strong" lg="1">Locations</p>
+        </b-col>
+        <b-col lg="6" class="pb-2">
           <b-row>
             <b-col>
               <a href="https://maps.google.com/?q=5410 North Tryon St, Charlotte, NC 28213" target="_blank">
@@ -26,7 +28,7 @@
           </b-row>
         </b-col>
 
-        <b-col lg="5">
+        <b-col lg="4">
           <span class="strong">Email </span><a href="mailto:info@accidentandinjurycharlotte.com" target="_blank">info@accidentandinjurycharlotte.com</a>
         </b-col>
       </b-row>
