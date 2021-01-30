@@ -7,6 +7,8 @@ import Contact from '../views/Contact.vue';
 import New from '../views/New.vue';
 import Ref from '../views/Ref.vue';
 import Service from '../views/Service.vue';
+import Leads from '../views/Leads.vue';
+
 
 Vue.use(VueRouter);
 
@@ -45,6 +47,11 @@ const routes = [
     path: '/service',
     name: 'Service',
     component: Service
+  },
+  {
+    path: '/leads',
+    name: 'Leads',
+    component: Leads
   }
 ];
 

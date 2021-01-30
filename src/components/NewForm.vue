@@ -16,7 +16,7 @@
     <b-row>
       <b-col md="6">
         <b-form-group id="input-group-phone" label="Phone" label-for="input-phone">
-          <b-form-input id="input-phone" v-model="contact.phone" type="tel" required />
+          <b-form-input id="input-phone" v-model="contact.phone" type="tel" minlength="10" required />
         </b-form-group>
       </b-col>
       <b-col md="6">
@@ -74,7 +74,8 @@ export default {
         phone: null,
         accident: null,
         accident_date: null,
-        preferred_visit_date: null
+        preferred_visit_date: null,
+        submit_date: new Date().toLocaleDateString('en-US')
       },
       accident_options: [
         { value: 'Car accident', text: 'Car accident' },
