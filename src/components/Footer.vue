@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-secondary text-white small py-1">
+  <footer class="bg-secondary text-white small pt-2 pb-1">
     <b-container>
       <b-row>
         <b-col>
