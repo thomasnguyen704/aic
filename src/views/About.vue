@@ -3,12 +3,15 @@
     <div class="bg-light py-5">
       <b-container>
         <b-row>
-          <b-col>
-            <h2>Who We Are</h2>
-            <p>We are a team of Chiropractic Care experts with more than 40 years of experience treating accident injury victims in the Charlotte area. Our team includes a combination of Chiropractic Doctors and Assistants who use their extensive training to relieve the pain our clients are experiencing.</p>
+          <b-col xl="6" class="mb-3">
+            <video playsinline="playsinline" autoplay="autoplay" controls>
+              <source src="https://www.dropbox.com/s/152g4q51n0tr1he/aic.mp4?raw=1" type="video/mp4">
+            </video>
           </b-col>
-          <b-col>
-            <h2>What We Do</h2>
+          <b-col xl="6">
+            <h5>Who We Are</h5>
+            <p>We are a team of Chiropractic Care experts with more than 40 years of experience treating accident injury victims in the Charlotte area. Our team includes a combination of Chiropractic Doctors and Assistants who use their extensive training to relieve the pain our clients are experiencing.</p>
+            <h5>What We Do</h5>
             <p>We provide comprehensive chiropractic care to patients who were injured in auto accidents which caused them pain to their neck and back. Our fully licensed team of chiropractors uses adjustment techniques and specialized physical therapy to create pain-free lifestyles. Our goal is to relieve the pain caused by accident injuries through proper medical care and make sure our patients also get legal assistance to make sure their rights are protected.</p>
           </b-col>
         </b-row>
@@ -83,5 +86,8 @@ export default {
 <style scoped>
   .cardSize {
     padding-bottom: 2em;
+  }
+  video {
+    width: 100%;
   }
 </style>
