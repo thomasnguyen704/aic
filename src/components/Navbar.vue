@@ -14,7 +14,7 @@
             <b-nav-item to="/ref">Attorney Referral</b-nav-item>
             <b-nav-item to="/contact">Contact</b-nav-item>
           </b-navbar-nav>
-          <b-navbar-nav class="ml-auto" id="rightNav">
+          <b-navbar-nav class="ml-auto hideMe" id="rightNav">
             <b-nav-item href="https://www.facebook.com/accidentandinjurycharlotte" target="_blank">
               <i class="fa fa-facebook fa-2x" />
             </b-nav-item>
@@ -45,4 +45,7 @@ export default {
 </script>
 
 <style scoped>
+  .hideMe {
+    display: none;
+  }
 </style>
