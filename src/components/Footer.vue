@@ -2,7 +2,7 @@
   <footer class="bg-secondary text-white small pt-2 pb-1">
     <b-container>
       <b-row>
-        <b-col>
+        <b-col lg="2">
           <p class="strong" lg="1">Locations</p>
         </b-col>
         <b-col lg="6" class="pb-2">
@@ -26,10 +26,6 @@
               <a href="tel:704-777-0905" target="_blank">Español 704-777-0905</a>
             </b-col>
           </b-row>
-        </b-col>
-
-        <b-col lg="4">
-          <span class="strong">Email </span><a href="mailto:info@accidentandinjurycharlotte.com" target="_blank">info@accidentandinjurycharlotte.com</a>
         </b-col>
       </b-row>
 

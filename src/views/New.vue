@@ -4,6 +4,10 @@
       <b-col lg="6">
         <h3 class="mb-4">Get Your Free Appointment Consultation</h3>
         <NewForm />
+        <hr class="mb-5" />
+        <p>
+          <a href="https://www.dropbox.com/s/aa011r7en3mphij/new_patient_en.pdf?raw=1" target="_blank">Click here to view or download our New Patient Registration Form.</a>
+        </p>
       </b-col>
       <b-col lg="6">
         <h5>Learn What to Expect During Your Treatment at Accident Injury Center</h5>
