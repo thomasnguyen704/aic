@@ -11,8 +11,6 @@
             <p class="lead">Trusted Chiropractors in Charlotte for Car Accident Injuries and Chronic Pain.</p>
             <b-link class="mx-1 btn btn-lg btn-primary" to="/new" role="button">Free Consultation</b-link>
             <b-link class="mx-1 btn btn-lg btn-danger" to="/contact" role="button">Contact Us</b-link>
-            <br/>
-            <b-img class="cm-logo my-3" src="https://www.dropbox.com/s/z0ih4frv0q8v2vo/char-memb.jpg?raw=1" thumbnail />
           </div>
         </div>
       </div>
