@@ -34,7 +34,7 @@
       </b-col>
       <b-col md="6">
         <b-form-group id="input-group-accident_date" label="Date of Accident or Injury" label-for="input-accident_date">
-          <b-form-input id="input-accident_date" v-model="contact.accident_date" type="date"/>
+          <b-form-input id="input-accident_date" v-model="contact.accident_date" type="date" maxlength="15"/>
         </b-form-group>
       </b-col>
     </b-row>
@@ -42,7 +42,7 @@
     <b-row>
       <b-col md="6">
         <b-form-group id="input-group-preferred_visit_date" label="Preferred Visit Date" label-for="input-preferred_visit_date">
-          <b-form-input id="input-preferred_visit_date" v-model="contact.preferred_visit_date" type="date"/>
+          <b-form-input id="input-preferred_visit_date" v-model="contact.preferred_visit_date" type="date" maxlength="15"/>
         </b-form-group>
       </b-col>
       <b-col md="6"></b-col>
