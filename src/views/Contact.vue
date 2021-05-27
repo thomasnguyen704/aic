@@ -15,7 +15,7 @@
                       </a>
                       <a class="small" href="tel:704-372-7200">English 704-372-7200</a> <br/>
                       <a class="small" href="tel:704-777-0904">Español 704-777-0904</a> <br />
-                      <a class="small" href="mailto:info@accidentandinjurycharlotte.com" target="_blank">info@accidentandinjurycharlotte.com</a>
+                      <a class="small" href="mailto:accident007@gmail.com" target="_blank">accident007@gmail.com</a>
                     </b-card-text>
                   </b-card-body>
                 </b-col>
@@ -40,7 +40,7 @@
                       </a>
                       <a class="small" href="tel:704-393-8447">English 704-393-8447</a> <br/>
                       <a class="small" href="tel:704-777-0905">Español 704-777-0905</a> <br />
-                      <a class="small" href="mailto:info@accidentandinjurycharlotte.com" target="_blank">info@accidentandinjurycharlotte.com</a>
+                      <a class="small" href="mailto:accident007@gmail.com" target="_blank">accident007@gmail.com</a>
                     </b-card-text>
                   </b-card-body>
                 </b-col>

@@ -1,14 +1,11 @@
 <template>
   <div class="pb-5">
     <header>
-      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="https://www.dropbox.com/s/2o8x1kp8xsrrvoz/hero.mp4?raw=1" type="video/mp4">
-      </video>
       <div class="container h-100 pb-5">
         <div class="d-flex h-100 text-center align-items-center pb-5">
           <div class="w-100 text-white py-5 fade-bg">
             <h1 class="display-4">Accident & Injury Center</h1>
-            <p class="lead">Trusted Chiropractors in Charlotte for Car Accident Injuries and Chronic Pain.</p>
+            <p class="lead">Trusted Chiropractors in Charlotte for Car Accident Injuries.</p>
             <b-link class="mx-1 btn btn-lg btn-primary" to="/new" role="button">Free Consultation</b-link>
             <b-link class="mx-1 btn btn-lg btn-danger" to="/contact" role="button">Contact Us</b-link>
           </div>
@@ -119,47 +116,7 @@ export default {
     scroll-behavior: smooth;
   }
   header {
-    position: relative;
-    background-color: black;
+    background-image: url('https://www.dropbox.com/s/miefzii3ekz72gr/dreamstime_m_157271710.jpeg?raw=1');
     height: 100vh;
-    min-height: 25rem;
-    width: 100%;
-    overflow: hidden;
-  }
-  header video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-  }
-  header .container {
-    position: relative;
-    z-index: 2;
-  }
-  header .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.5;
-    z-index: 1;
-  }
-  @media (pointer: coarse) and (hover: none) {
-    header {
-      background: url("https://www.dropbox.com/s/q3z1je9iv2p6r55/002.jpg?raw=1") #17a2b8 no-repeat center center scroll;
-    }
-    header video {
-      display: none;
-    }
   }
 </style>

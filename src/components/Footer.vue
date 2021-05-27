@@ -1,16 +1,16 @@
 <template>
-  <footer class="bg-secondary text-white small pt-2 pb-1">
+  <footer class="bg-dark text-white small pt-2 pb-1">
     <b-container>
       <b-row>
         <b-col lg="2">
           <p class="strong" lg="1">Locations</p>
         </b-col>
-        <b-col lg="6" class="pb-2">
+        <b-col lg="8" class="pb-2">
           <b-row>
             <b-col>
               <a href="https://maps.google.com/?q=5410 North Tryon St, Charlotte, NC 28213" target="_blank">
                 <address> 
-                  <span>5410 N. Tryon St.</span> <br/> Charlotte, NC 28213
+                  <span>5410 N. Tryon St. Charlotte, NC 28213</span>
                 </address>
               </a>
               <a href="tel:704-372-7200" target="_blank">English 704-372-7200</a> <br/>
@@ -19,7 +19,7 @@
             <b-col>
               <a href="https://maps.google.com/?q=2501 Beatties Ford Rd, Charlotte, NC 28216" target="_blank">
                 <address>
-                  <span>2501 Beatties Ford Rd.</span> <br/> Charlotte, NC 28216
+                  <span>2501 Beatties Ford Rd. Charlotte, NC 28216</span>
                 </address>
               </a>
               <a href="tel:704-393-8447" target="_blank">English 704-393-8447</a> <br/>
