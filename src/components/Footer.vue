@@ -1,11 +1,11 @@
 <template>
-  <footer class="bg-dark text-white small pt-2 pb-1">
+  <footer class="bg-dark text-white small pt-2">
     <b-container>
       <b-row>
         <b-col lg="2">
           <p class="strong" lg="1">Locations</p>
         </b-col>
-        <b-col lg="8" class="pb-2">
+        <b-col lg="10" class="pb-2">
           <b-row>
             <b-col>
               <a href="https://maps.google.com/?q=5410 North Tryon St, Charlotte, NC 28213" target="_blank">
