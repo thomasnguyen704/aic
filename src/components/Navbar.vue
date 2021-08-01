@@ -12,9 +12,6 @@
             <b-nav-item to="/new">New Patient</b-nav-item>
             <b-nav-item to="/ref">Attorney Referral</b-nav-item>
             <b-nav-item to="/contact">Contact</b-nav-item>
-            <b-nav-item href="https://translate.google.com/translate?hl=en&sl=en&tl=es&u=https%3A%2F%2Fwww.accidentandinjurycharlotte.com%2F" target="blank">
-              <a class="text-warning">Spanish</a>
-            </b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="ml-auto" id="rightNav">
             <b-nav-item href="https://www.facebook.com/accidentandinjurycharlotte" target="_blank">
@@ -22,6 +19,9 @@
             </b-nav-item>
             <b-nav-item href="https://www.yelp.com/biz/accident-and-injury-center-charlotte-3?osq=accident+injury+center" target="_blank">
               <i class="fa fa-yelp fa-2x" />
+            </b-nav-item>
+            <b-nav-item href="https://translate.google.com/translate?hl=en&sl=en&tl=es&u=https%3A%2F%2Fwww.accidentandinjurycharlotte.com%2F" target="blank">
+              <a class="btn btn-sm btn-warning" role="button">Spanish</a>
             </b-nav-item>
             <b-nav-item>
               <b-button v-b-modal.modal-1 variant="outline-danger" class="mx-1 btn-sm">COVID-19 Notice</b-button>
