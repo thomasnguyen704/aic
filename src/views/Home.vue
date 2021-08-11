@@ -6,8 +6,9 @@
           <div class="w-100 text-white py-5 fade-bg">
             <h1 class="display-4">Accident & Injury Center</h1>
             <p class="lead">Trusted Chiropractors in Charlotte for Car Accident Injuries.</p>
+            <a class="btn btn-lg btn-danger mx-1" href="tel:704-372-7200" target="_blank">Call Us</a>
             <b-link class="mx-1 btn btn-lg btn-primary" to="/new" role="button">Free Consultation</b-link>
-            <b-link class="mx-1 btn btn-lg btn-danger" to="/contact" role="button">Contact Us</b-link>
+            <b-link class="mx-1 btn btn-lg btn-primary" to="/contact" role="button">Locations</b-link>
           </div>
         </div>
       </div>

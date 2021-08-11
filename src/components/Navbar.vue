@@ -21,7 +21,7 @@
               <i class="fa fa-yelp fa-2x" />
             </b-nav-item>
             <b-nav-item href="https://translate.google.com/translate?hl=en&sl=en&tl=es&u=https%3A%2F%2Fwww.accidentandinjurycharlotte.com%2F" target="blank">
-              <a class="btn btn-sm btn-warning" role="button">Spanish</a>
+              <a class="btn btn-sm btn-warning" role="button">Español</a>
             </b-nav-item>
             <b-nav-item>
               <b-button v-b-modal.modal-1 variant="outline-danger" class="mx-1 btn-sm">COVID-19 Notice</b-button>
